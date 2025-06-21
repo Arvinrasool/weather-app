@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.container{
+    width:100%;
+    height:100vh;
+    background-color: maroon;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.weathercontainer{
+    color:white;
+}
+
+.temperature{
+    font-size:4.5rem; 
+}
+
+.location{
+    font-size:2rem;
+}
+
+.image img{
+    height:70px;
+}
+
+.image p{
+    font-size:1.5rem;
+}
+
+.searcharea{
+    padding:1rem 2rem;
+    margin-left:2rem;
+    border-radius:10px;
+}
+
+footer form button{
+    padding:1rem;
+    border-radius:10px
+}
