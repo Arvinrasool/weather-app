@@ -12,7 +12,7 @@ const weatherImg = document.querySelector('.image img');
 let country = 'mumbai';
 
 const data = async (location) => {
-    let API_URL = `http://api.weatherapi.com/v1/current.json?key=e65206e21efc4479b12132046252502&q=${location}&aqi=no`;
+    let API_URL = `https://api.weatherapi.com/v1/current.json?key=e65206e21efc4479b12132046252502&q=${location}&aqi=no`;
     const res = await fetch(API_URL);
     const result = await res.json();
     console.log(result);
